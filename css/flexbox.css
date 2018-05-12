@@ -1,0 +1,102 @@
+@media (min-width: 481px){
+	.about_me .flex_container{
+		display: flex;
+		justify-content: center;
+		justify-content: space-around;
+	}
+
+}
+
+@media(min-width: 768px){
+
+	.main_header{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.main_header .main_icon{
+		margin: 0;
+	}
+	.main_header .hamburger_button{
+		display: none;
+	}
+	.main_header .main_nav{
+		list-style: none;
+		display: flex;
+		padding-left: 0;
+	}
+
+}
+
+@media(min-width: 992px){
+
+	.main_header{
+		justify-content: space-between;
+	}
+	.main_header .main_nav{
+		margin-left: 9%;
+	}
+	.about_me{
+		display: flex;
+		align-items: center;
+
+	}
+	.about_me .col_1{
+		flex: 3;
+
+	}
+
+	.about_me .col_2{
+		flex: 2 100px;
+	}
+
+	.work{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.prices .wrapper{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.prices .wrapper .col{
+		min-width: 27%;
+	}
+
+	.blog .wrapper{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.contact .container{
+		display: flex;
+		justify-content: space-around;
+	}
+	.contact .col_1{
+		width: 50%;
+
+	}
+	
+	.contact .col_1 form{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.contact .col_1 .name{
+		margin-top: 0;
+		width: 45%;
+		margin-bottom: 0;
+	}
+	.contact .col_1 .lastname{
+		width: 45%;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.contact .col_1 textarea{
+		width: 100%;
+	}
+
+
+}
