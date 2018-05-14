@@ -89,7 +89,7 @@ body{
 	  Parallax
 ====================*/
 .home_parallax{
-	background-image: url(../img/Lyza.jpg);
+	background-image: url(../img/swim.jpeg);
 	background-position: center;
 	background-size: cover;
 	width: auto;
@@ -471,6 +471,7 @@ body{
 @media(min-width: 768px){
 	.home_parallax{
 		margin-top: 70px; 
+		background-image: url(../img/lyza.jpg);
 		background-attachment: fixed;
 	}
 
