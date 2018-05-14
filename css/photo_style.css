@@ -472,6 +472,7 @@ body{
 @media(min-width: 768px){
 	.home_parallax{
 		margin-top: 70px; 
+		background-attachment: fixed;
 	}
 
 	.main_header .main_nav a{
