@@ -90,7 +90,6 @@ body{
 ====================*/
 .home_parallax{
 	background-image: url(../img/Lyza.jpg);
-	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	width: auto;
